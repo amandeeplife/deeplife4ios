@@ -20,6 +20,9 @@
 		3BC843F31CA5F7AB0034DB98 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC843F21CA5F7AB0034DB98 /* RegisterViewController.swift */; };
 		3BD773D11CA79C4700154F61 /* DiscipleAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD773D01CA79C4700154F61 /* DiscipleAddViewController.swift */; };
 		3BD773D41CA7AFBB00154F61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD773D21CA7AFBB00154F61 /* Main.storyboard */; };
+		8CA336BC1CC665A100C93715 /* appdatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CA336BA1CC665A000C93715 /* appdatabase.xcdatamodeld */; };
+		8CA336BF1CC66F6C00C93715 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA336BD1CC66F6B00C93715 /* Item+CoreDataProperties.swift */; };
+		8CA336C01CC66F6C00C93715 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA336BE1CC66F6C00C93715 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		3BC843F21CA5F7AB0034DB98 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3BD773D01CA79C4700154F61 /* DiscipleAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscipleAddViewController.swift; sourceTree = "<group>"; };
 		3BD773D31CA7AFBB00154F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CA336BB1CC665A100C93715 /* appdatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = appdatabase.xcdatamodel; sourceTree = "<group>"; };
+		8CA336BD1CC66F6B00C93715 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8CA336BE1CC66F6C00C93715 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		8E0AAAD02F08C085D384D062 /* Pods-Deep_Life.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deep_Life.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Deep_Life/Pods-Deep_Life.debug.xcconfig"; sourceTree = "<group>"; };
 		CB5D1A8C1B6FC1C1CD8FDF7B /* Pods_Deep_Life.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deep_Life.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,6 +102,8 @@
 		3BC843B01CA592520034DB98 = {
 			isa = PBXGroup;
 			children = (
+				8CA336BD1CC66F6B00C93715 /* Item+CoreDataProperties.swift */,
+				8CA336BE1CC66F6C00C93715 /* Item.swift */,
 				3BBE94401CB4FDD800CC4F24 /* Podfile */,
 				3BC843BB1CA592520034DB98 /* Deep_Life */,
 				3BC843D01CA592530034DB98 /* Deep_LifeTests */,
@@ -122,6 +130,7 @@
 				3BD896731CC6195D007149B9 /* Country Picker */,
 				3BD773D21CA7AFBB00154F61 /* Main.storyboard */,
 				3BC843BC1CA592520034DB98 /* AppDelegate.swift */,
+				8CA336BA1CC665A000C93715 /* appdatabase.xcdatamodeld */,
 				3BC843BE1CA592520034DB98 /* ViewController.swift */,
 				3BC843C31CA592520034DB98 /* Assets.xcassets */,
 				3BC843C51CA592520034DB98 /* LaunchScreen.storyboard */,
@@ -365,12 +374,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA336C01CC66F6C00C93715 /* Item.swift in Sources */,
 				3BD773D11CA79C4700154F61 /* DiscipleAddViewController.swift in Sources */,
 				3BC843BF1CA592520034DB98 /* ViewController.swift in Sources */,
 				3BC843BD1CA592520034DB98 /* AppDelegate.swift in Sources */,
 				3BC843F11CA5A7820034DB98 /* DiscipleList.swift in Sources */,
 				3B8C7A421CB7B4CB003F80A4 /* GetUserData.swift in Sources */,
 				3BC843F31CA5F7AB0034DB98 /* RegisterViewController.swift in Sources */,
+				8CA336BF1CC66F6C00C93715 /* Item+CoreDataProperties.swift in Sources */,
+				8CA336BC1CC665A100C93715 /* appdatabase.xcdatamodeld in Sources */,
 				3B8C7A401CB7B4A0003F80A4 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -636,6 +648,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8CA336BA1CC665A000C93715 /* appdatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8CA336BB1CC665A100C93715 /* appdatabase.xcdatamodel */,
+			);
+			currentVersion = 8CA336BB1CC665A100C93715 /* appdatabase.xcdatamodel */;
+			path = appdatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3BC843B11CA592520034DB98 /* Project object */;
 }

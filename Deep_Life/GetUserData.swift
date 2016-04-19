@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import SwiftyJSON
+//import SwiftyJSON
 
 protocol UserLoginDelegate{
     func loginCheck(user: User)
