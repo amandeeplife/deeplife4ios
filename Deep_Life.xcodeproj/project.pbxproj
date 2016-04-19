@@ -23,6 +23,7 @@
 		8CA336BC1CC665A100C93715 /* appdatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CA336BA1CC665A000C93715 /* appdatabase.xcdatamodeld */; };
 		8CA336BF1CC66F6C00C93715 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA336BD1CC66F6B00C93715 /* Item+CoreDataProperties.swift */; };
 		8CA336C01CC66F6C00C93715 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA336BE1CC66F6C00C93715 /* Item.swift */; };
+		8CA336C21CC67E2000C93715 /* MainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA336C11CC67E2000C93715 /* MainTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		8CA336BB1CC665A100C93715 /* appdatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = appdatabase.xcdatamodel; sourceTree = "<group>"; };
 		8CA336BD1CC66F6B00C93715 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8CA336BE1CC66F6C00C93715 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8CA336C11CC67E2000C93715 /* MainTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTVC.swift; sourceTree = "<group>"; };
 		8E0AAAD02F08C085D384D062 /* Pods-Deep_Life.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deep_Life.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Deep_Life/Pods-Deep_Life.debug.xcconfig"; sourceTree = "<group>"; };
 		CB5D1A8C1B6FC1C1CD8FDF7B /* Pods_Deep_Life.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deep_Life.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -165,6 +167,7 @@
 		3BD896731CC6195D007149B9 /* Country Picker */ = {
 			isa = PBXGroup;
 			children = (
+				8CA336C11CC67E2000C93715 /* MainTVC.swift */,
 			);
 			name = "Country Picker";
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				3BC843BF1CA592520034DB98 /* ViewController.swift in Sources */,
 				3BC843BD1CA592520034DB98 /* AppDelegate.swift in Sources */,
 				3BC843F11CA5A7820034DB98 /* DiscipleList.swift in Sources */,
+				8CA336C21CC67E2000C93715 /* MainTVC.swift in Sources */,
 				3B8C7A421CB7B4CB003F80A4 /* GetUserData.swift in Sources */,
 				3BC843F31CA5F7AB0034DB98 /* RegisterViewController.swift in Sources */,
 				8CA336BF1CC66F6C00C93715 /* Item+CoreDataProperties.swift in Sources */,
