@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1E6F57F3166C3857F62005F04A5025AE990166B0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1E6F57F3166C3857F62005F04A5025AE990166B0" : 0,
+    "073C0337AA155A163A43444930459196A36ACBCC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "06380D0D-DCFF-4AEA-A079-41295341B065",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1E6F57F3166C3857F62005F04A5025AE990166B0" : "deeplifeios\/",
+    "073C0337AA155A163A43444930459196A36ACBCC" : "CountryPicker-iOS-Swift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Deep_Life",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Deep_Life.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Keyflow\/CountryPicker-iOS-Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "073C0337AA155A163A43444930459196A36ACBCC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/amandeeplife\/deeplife4ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1E6F57F3166C3857F62005F04A5025AE990166B0"
+    }
+  ]
+}
