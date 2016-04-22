@@ -20,6 +20,7 @@
 		3BC843F31CA5F7AB0034DB98 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC843F21CA5F7AB0034DB98 /* RegisterViewController.swift */; };
 		3BD773D11CA79C4700154F61 /* DiscipleAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD773D01CA79C4700154F61 /* DiscipleAddViewController.swift */; };
 		3BD773D41CA7AFBB00154F61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD773D21CA7AFBB00154F61 /* Main.storyboard */; };
+		3BF96AB11CCA2AEF00F317C8 /* ABCIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF96AB01CCA2AEF00F317C8 /* ABCIntroView.m */; };
 		8CA336BC1CC665A100C93715 /* appdatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8CA336BA1CC665A000C93715 /* appdatabase.xcdatamodeld */; };
 		8CA336BF1CC66F6C00C93715 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA336BD1CC66F6B00C93715 /* Item+CoreDataProperties.swift */; };
 		8CA336C01CC66F6C00C93715 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA336BE1CC66F6C00C93715 /* Item.swift */; };
@@ -67,6 +68,9 @@
 		3BC843F21CA5F7AB0034DB98 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3BD773D01CA79C4700154F61 /* DiscipleAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscipleAddViewController.swift; sourceTree = "<group>"; };
 		3BD773D31CA7AFBB00154F61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BF96AAE1CCA2AEF00F317C8 /* Deep_Life_Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deep_Life_Bridging_Header.h; sourceTree = "<group>"; };
+		3BF96AAF1CCA2AEF00F317C8 /* ABCIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABCIntroView.h; path = "../../../Downloads/ABCIntroView-master/ABCIntroView/ABCIntroView.h"; sourceTree = "<group>"; };
+		3BF96AB01CCA2AEF00F317C8 /* ABCIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABCIntroView.m; path = "../../../Downloads/ABCIntroView-master/ABCIntroView/ABCIntroView.m"; sourceTree = "<group>"; };
 		8CA336BB1CC665A100C93715 /* appdatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = appdatabase.xcdatamodel; sourceTree = "<group>"; };
 		8CA336BD1CC66F6B00C93715 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8CA336BE1CC66F6C00C93715 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -127,7 +131,7 @@
 		3BC843BB1CA592520034DB98 /* Deep_Life */ = {
 			isa = PBXGroup;
 			children = (
-				3BD896731CC6195D007149B9 /* Country Picker */,
+				3BD896731CC6195D007149B9 /* launchScreen */,
 				3BD773D21CA7AFBB00154F61 /* Main.storyboard */,
 				3BC843BC1CA592520034DB98 /* AppDelegate.swift */,
 				8CA336BA1CC665A000C93715 /* appdatabase.xcdatamodeld */,
@@ -162,11 +166,14 @@
 			path = Deep_LifeUITests;
 			sourceTree = "<group>";
 		};
-		3BD896731CC6195D007149B9 /* Country Picker */ = {
+		3BD896731CC6195D007149B9 /* launchScreen */ = {
 			isa = PBXGroup;
 			children = (
+				3BF96AAF1CCA2AEF00F317C8 /* ABCIntroView.h */,
+				3BF96AB01CCA2AEF00F317C8 /* ABCIntroView.m */,
+				3BF96AAE1CCA2AEF00F317C8 /* Deep_Life_Bridging_Header.h */,
 			);
-			name = "Country Picker";
+			name = launchScreen;
 			sourceTree = "<group>";
 		};
 		EA03943D4974474763D85183 /* Pods */ = {
@@ -376,6 +383,7 @@
 			files = (
 				8CA336C01CC66F6C00C93715 /* Item.swift in Sources */,
 				3BD773D11CA79C4700154F61 /* DiscipleAddViewController.swift in Sources */,
+				3BF96AB11CCA2AEF00F317C8 /* ABCIntroView.m in Sources */,
 				3BC843BF1CA592520034DB98 /* ViewController.swift in Sources */,
 				3BC843BD1CA592520034DB98 /* AppDelegate.swift in Sources */,
 				3BC843F11CA5A7820034DB98 /* DiscipleList.swift in Sources */,
@@ -529,6 +537,7 @@
 			baseConfigurationReference = 8E0AAAD02F08C085D384D062 /* Pods-Deep_Life.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Deep_Life/Info.plist;
@@ -538,6 +547,8 @@
 				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BG.DeepLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Deep_Life/Deep_Life_Bridging_Header.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -547,6 +558,7 @@
 			baseConfigurationReference = 37EF583CF989CB6953467B78 /* Pods-Deep_Life.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Deep_Life/Info.plist;
@@ -556,6 +568,7 @@
 				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BG.DeepLife;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Deep_Life/Deep_Life_Bridging_Header.h;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
