@@ -139,11 +139,11 @@
 				3BC843C31CA592520034DB98 /* Assets.xcassets */,
 				3BC843C51CA592520034DB98 /* LaunchScreen.storyboard */,
 				3BC843C81CA592520034DB98 /* Info.plist */,
-				3BC843F01CA5A7820034DB98 /* DiscipleList.swift */,
 				3BC843F21CA5F7AB0034DB98 /* RegisterViewController.swift */,
+				3BC843F01CA5A7820034DB98 /* DiscipleList.swift */,
 				3BD773D01CA79C4700154F61 /* DiscipleAddViewController.swift */,
-				3B8C7A3F1CB7B4A0003F80A4 /* User.swift */,
 				3B8C7A411CB7B4CB003F80A4 /* GetUserData.swift */,
+				3B8C7A3F1CB7B4A0003F80A4 /* User.swift */,
 			);
 			path = Deep_Life;
 			sourceTree = "<group>";

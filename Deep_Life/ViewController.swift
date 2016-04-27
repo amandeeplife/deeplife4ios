@@ -10,18 +10,18 @@ import UIKit
 //import SwiftyJSON
 
 class ViewController: UIViewController, ABCIntroViewDelegate {
-    var introView = ABCIntroView.init()
+    var introView: ABCIntroView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let defaults = NSUserDefaults.standardUserDefaults()
         if (defaults.objectForKey("intro_screen_viewed") == nil){
-            print("here")
             
             self.introView = ABCIntroView(frame: self.view.frame)
             self.introView.delegate = self
             self.introView.backgroundColor = UIColor.init(white: 0.149, alpha: 1.000)
+            //self.introView.contentMode = UIViewContentMode.ScaleAspectFill
             
             self.view.addSubview(self.introView)
         }
